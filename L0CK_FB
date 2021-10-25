@@ -1,0 +1,19 @@
+#!/bin/bash
+figlet Tools
+figlet FB
+echo "==========================================="
+echo "Author : Mr.T1T4N"
+echo "Team : Indonesia Cyber | Linux Cyber | Legend C>
+echo "Youtube : T1T4N TZY"
+echo "==========================================="
+echo "==========================================="
+echo "1). Tools FB"
+echo "99). Keluar"
+echo "==========================================="
+read -p "PilihLah Sesuka Kalian :" who
+if [ $who = 1 ]
+then
+    git clone https://github.com/MRA27/FBNEWV2
+    cd FBNEWV2
+     python2 MRA27.py
+fi
